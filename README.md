@@ -51,9 +51,10 @@ $ source ~/ros2-ros1_ws/devel/setup.bash
 $ roslaunch ros2-ros1_bridge neo_talker.launch
 ```
 
-Run ros1_bridge under ROS2 environment in Shell B:
+Run ros1_bridge under ROS and ROS2 environment in Shell B:
 
 ```
+$ source /opt/ros/noetic/setup.bash
 $ source /opt/ros/foxy/setup.bash
 $ ros2 run ros1_bridge dynamic_bridge
 ```
