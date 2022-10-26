@@ -6,7 +6,7 @@ This repository contains the ROS publisher for ros2 ros1 bridge.
 1. Ubuntu 20.04
 2. Python 3.8
 3. ROS Noetic
-4. ROS Foxy
+4. ROS Galactic
 
 ## Development
 
@@ -55,13 +55,14 @@ Run ros1_bridge under ROS and ROS2 environment in Shell B:
 
 ```
 $ source /opt/ros/noetic/setup.bash
-$ source /opt/ros/foxy/setup.bash
+$ source /opt/ros/galactic/setup.bash
+$ export ROS_MASTER_URI=http://localhost:11311
 $ ros2 run ros1_bridge dynamic_bridge
 ```
 
 Run ROS2 listener in Shell C:
 
 ```
-$ source /opt/ros/foxy/setup.bash
+$ source /opt/ros/galactic/setup.bash
 $ ros2 run demo_nodes_cpp listener
 ```
