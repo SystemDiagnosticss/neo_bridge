@@ -1,6 +1,6 @@
 # ros2-ros1_bridge
 
-This repository contains the ROS publisher for ros2 ros1 bridge.
+This repository contains the ROS publisher for ros2 ros1 bridge. Details in video https://www.youtube.com/watch?v=pzhFLY7oc80 .
 
 ## Prerequisites
 1. Ubuntu 20.04
